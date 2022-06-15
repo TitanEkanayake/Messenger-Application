@@ -1,38 +1,127 @@
-.App {
+.body{
+  background-color: rgb(71, 182, 233);
+}
+
+.FormControl{
+margin-left: 10px;
+}
+
+Form Button {
+  width: 100%;
+}
+
+.header {
+  color: #313131;
+  align-items: center;
   text-align: center;
+  padding-top: 10px;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+
+h6 {
+  color: rgb(5, 5, 5);
+  background-color: cyan;
+  -webkit-border-radius: 10px;
+  border-radius: 10px;
+  margin: 10px;
+   padding: 5px;
+   border: 10px;
+   outline: 5px rgb(71, 182, 233);
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+h6:hover{
+  background-color: rgb(221, 83, 28);
+  color: #e7e0e0;
+  cursor: pointer;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
+.container1{
+  background-color: rgb(71, 182, 233);
+  height: 100vh;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+} 
+.login{
+  padding-top: 100px;
+  background-color: rgb(71, 182, 233);
+  height: 100vh;
 }
 
-.App-link {
-  color: #61dafb;
+
+
+/* .app {
+  margin: auto;
+  padding-top: 40px;
+  width: 950px;
+  text-align: center;
+} */
+
+.lobby {
+  width: 400px;
+  margin: auto;
+  
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.chat {
+  display:grid;
+}
+
+.leave-room {
+  margin-left:1435px ;
+  
+  
+}
+
+.user-list {
+float:right;
+  color:rgb(0, 0, 0);
+  width: 200px;
+  margin: 4px;
+ margin-Right: 500px; 
+}
+
+.message-container  {
+  height: 700px;
+  min-width: 100px;    
+  max-width: 1000px;
+  background-color: rgb(88, 153, 153);
+  border-radius: 5px;
+  margin: 10px;
+  overflow: auto;
+  margin-left: 400px;
+}
+
+
+.user-message {
+  text-align: right;
+  padding-right: 5px;
+  font-size: 18px;
+}
+
+.message {
+  display: inline-flex;
+  margin: 0px auto 0px auto;
+  padding: 5px;
+  font-size: 18px;
+  color:rgb(255, 255, 255);
+  border-radius: 20px;
+  margin-top: 3px;
+}
+
+.from-user {
+  font-size: small;
+  margin-bottom: 3px;
+  margin-right: 5px;
+}
+.InputGroup{
+  padding: 10px;
+}
+.send{
+  padding: 10px;
+  min-width: 100px;    
+  max-width: 1413px;
+  justify-items: center;
+  padding-left: 400px;
+}
+.user-message{
+  padding: 5px;
 }
